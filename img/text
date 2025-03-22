@@ -17,3 +17,6 @@
 
 - https://modadvert.s3.yandex.net/modgames/9904c9c2-d82f-4d54-b0d3-eeabc633bdca
 
+
+npx @yandex-games/sdk-dev-proxy -p D:\a\react\tetball\dist --app-id=252734
+

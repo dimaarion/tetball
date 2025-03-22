@@ -98,12 +98,14 @@ play.addEventListener("mousedown", () => {
   if (pause.style.display === "none") {
     pauseSound = true
     pause.style.display = "block";
+    pause.style.zIndex = "3"
     pausePanel.style.display = "block";
     soundFon.pause();
     play.querySelector("img").src = "img/play-btn.svg";
     window.ysdk?.features.GameplayAPI.stop()
 
   } else {
+    pause.style.zIndex = "8"
     startPlay()
   }
 })
@@ -270,6 +272,7 @@ Events.on(engine, 'collisionStart', (event) => {
     if (bodyB.label === "ball" && bodyA.label === "static-gun") {
       pause.style.display = "block";
       gameOver.style.display = "block";
+      pause.style.zIndex = "4"
       soundPlayer = false;
       soundBum.pause();
       soundUp.pause();

@@ -1,6 +1,9 @@
 
 
-
+* {
+  user-select: none; /* Запрещает выделение текста */
+  -webkit-user-drag: none; /* Отключает перетаскивание изображений */
+}
 
 canvas{
   position: fixed;
@@ -18,7 +21,7 @@ canvas{
 
 input[type="range"] {
   -webkit-appearance: none;
-  width: 200px!important;
+  width: 150px!important;
   height: 7px!important;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 5px;
@@ -121,7 +124,7 @@ font-size: 18pt;
   bottom: 0;
   background: #000000;
   opacity: 0.7;
-  z-index: 8!important;
+  z-index: 8;
 }
 #start{
   position: fixed;
@@ -140,26 +143,16 @@ font-size: 18pt;
   width: 100%;
 }
 
-#pause-panel{
-  position: fixed;
-  margin: auto;
-  width: 500px;
-  height: 500px;
-  z-index: 4;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: none;
-}
 
-#game-over{
+#game-over, #pause-panel{
   position: fixed;
   margin: auto;
-  width: 500px;
-  height: 500px;
-  z-index: 4;
-  top: 0;
+  min-width: 300px;
+  min-height: 200px;
+  max-width: 500px;
+  max-height: 400px;
+  z-index: 10;
+  top:0;
   right: 0;
   bottom: 0;
   left: 0;
@@ -175,7 +168,7 @@ font-size: 18pt;
   z-index: 4;
   top: 0;
   right: 0;
-  bottom: 350px;
+  bottom: 150px;
   left: 0;
   font-size: 20pt;
   color: white;
@@ -187,9 +180,9 @@ font-size: 18pt;
   width: 100px;
   height: 100px;
   z-index: 4;
-  top: -210px;
+  top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 50px;
   left: 0;
   cursor: pointer;
 }
@@ -205,8 +198,8 @@ font-size: 18pt;
   height: 50px;
   z-index: 4;
   top: 0;
-  right: 300px;
-  bottom: 330px;
+  right: 220px;
+  bottom: 90px;
   left: 0;
 }
 
@@ -217,7 +210,7 @@ font-size: 18pt;
   z-index: 4;
   top: 0;
   right: 0;
-  bottom: 330px;
+  bottom: 100px;
   left: 0;
 }
 
@@ -237,8 +230,8 @@ font-size: 18pt;
   height: 50px;
   z-index: 4;
   top: 0;
-  right: 300px;
-  bottom: 200px;
+  right: 220px;
+  bottom: 0;
   left: 0;
 }
 
@@ -252,23 +245,25 @@ font-size: 18pt;
 }
 #restart-pause-btn{
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 16%;
+  height: 16%;
   margin: auto;
   right: 150px;
   left: 0;
-  bottom: 215px;
+  bottom: 0;
   cursor: pointer;
+  top: 25%;
 }
 #pause-play{
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 16%;
+  height: 16%;
   margin: auto;
   right: 0;
   left: 150px;
-  bottom: 215px;
+  bottom: 0;
   cursor: pointer;
+  top: 25%;
 }
 #pause-play img{
   width: 100%;
@@ -285,7 +280,7 @@ font-size: 18pt;
   z-index: 4;
   top: 0;
   right: 0;
-  bottom: 200px;
+  bottom: 0;
   left: 0;
 }
 #scopes-pause{
@@ -312,7 +307,7 @@ font-size: 18pt;
 }
 
 #remove-ball-btn{
-  position: fixed;
+  position: absolute;
   margin: auto;
   right: 0;
   left: 0;
@@ -320,7 +315,7 @@ font-size: 18pt;
   height: 50px;
   text-align: center;
   top: 0;
-  bottom: 0;
+  bottom: -100px;
   cursor: pointer;
 }
 #remove-ball-btn img{
@@ -336,6 +331,10 @@ font-size: 18pt;
   .text-ms{
     font-size: 8pt;
   }
+
+  #game-over-text{
+    font-size: 15pt;
+  }
 }
 
 @media (max-width: 500px) {
@@ -344,5 +343,8 @@ font-size: 18pt;
   }
   #record-panel{
     top: 50px!important;
+  }
+  #game-over-text{
+    font-size: 12pt;
   }
 }
