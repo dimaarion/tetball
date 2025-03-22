@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1292" height="67" viewBox="0 0 1292 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <g transform="translate(6 2)">
+    <rect width="1280" height="55" fill="#00648E" fill-rule="evenodd" />
+    <g transform="translate(558 12)">
+      <path d="M149 0C157.285 0 164 6.7146 164 15L164 15C164 23.2854 157.285 30 149 30L15 30C6.7146 30 0 23.2854 0 15L0 15C0 6.7146 6.7146 0 15 0L149 0Z" fill="#004B6E" />
+    <text id="scores" transform="translate(70 20)" fill="#FFFFFF" clip-path="url(#clip_path_1)">150</text>
+    </g>
+  </g>
+</svg>

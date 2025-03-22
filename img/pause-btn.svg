@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="group_1">
+      <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="#259FD8" fill-rule="evenodd" />
+      <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="#259FD8" fill-rule="evenodd" />
+      <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="#259FD8" fill-rule="evenodd" />
+      <use p4:href="#group_1" clip-path="url(#clip_path_3)" filter="url(#filter_4)" xmlns:p4="http://www.w3.org/1999/xlink" />
+      <path d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" fill="#004B6E" fill-rule="evenodd" transform="translate(1 1)" />
+      <path d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" fill="#004B6E" fill-rule="evenodd" />
+    </g>
+    <path id="path_2" d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" />
+    <clipPath id="clip_path_3">
+      <use p4:href="#path_2" xmlns:p4="http://www.w3.org/1999/xlink" />
+    </clipPath>
+    <filter color-interpolation-filters="sRGB" x="-30" y="-30" width="32" height="32" id="filter_4">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix_1" result="Shape_2" />
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+    <path id="path_5" d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" />
+    <clipPath id="clip_path_6" transform="translate(1 1)">
+      <use p4:href="#path_5" xmlns:p4="http://www.w3.org/1999/xlink" />
+    </clipPath>
+    <filter color-interpolation-filters="sRGB" x="-28" y="-28" width="30" height="30" id="filter_7">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix_1" result="Shape_2" />
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+  </defs>
+  <g transform="translate(6 6)">
+    <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="#259FD8" fill-rule="evenodd" />
+    <use p3:href="#group_1" clip-path="url(#clip_path_3)" filter="url(#filter_4)" xmlns:p3="http://www.w3.org/1999/xlink" />
+    <path d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" fill="#004B6E" fill-rule="evenodd" transform="translate(1 1)" />
+    <use p3:href="#group_1" clip-path="url(#clip_path_6)" filter="url(#filter_7)" xmlns:p3="http://www.w3.org/1999/xlink" />
+    <g transform="translate(6 6)">
+      <path d="M1.875 0C2.91053 0 3.75 0.839466 3.75 1.875C3.75 1.875 3.75 9.375 3.75 9.375C3.75 10.4105 2.91053 11.25 1.875 11.25C0.839466 11.25 0 10.4105 0 9.375C0 9.375 0 1.875 0 1.875C0 0.839466 0.839466 0 1.875 0ZM8.125 0C9.16053 0 10 0.839466 10 1.875C10 1.875 10 9.375 10 9.375C10 10.4105 9.16053 11.25 8.125 11.25C7.08947 11.25 6.25 10.4105 6.25 9.375C6.25 9.375 6.25 1.875 6.25 1.875C6.25 0.839466 7.08947 0 8.125 0Z" fill="#259FD8" transform="translate(5 4.375)" />
+    </g>
+  </g>
+</svg>
